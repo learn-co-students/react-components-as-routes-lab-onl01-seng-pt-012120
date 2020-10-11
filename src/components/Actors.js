@@ -11,7 +11,7 @@ const Actors = () => {
             <p>{a.name}</p>
             Movies:
             <ul>
-              {a.movies.map(m => `<li>${m}</li>`)}
+              {a.movies.map(m => <li>{m}</li>)}
             </ul>
           </div>
           )

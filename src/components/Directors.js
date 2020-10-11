@@ -11,7 +11,7 @@ const Directors = () => {
             <p>{d.name}</p>
             Movies:
             <ul>
-              {d.movies.map(m => `<li>${m}</li>`)}
+              {d.movies.map(m => <li>{m}</li>)}
             </ul>
           </div>
           )

@@ -18,7 +18,7 @@ const NavBar = () => {
           exact
           style={link}
           activeStyle={{
-            background: 'white'
+            background: 'lightgrey'
           }}
         >Home</NavLink>
         <NavLink
@@ -26,7 +26,7 @@ const NavBar = () => {
           exact
           style={link}
           activeStyle={{
-            background: 'white'
+            background: 'lightgrey'
           }}
         >Movies</NavLink>
         <NavLink
@@ -34,7 +34,7 @@ const NavBar = () => {
           exact
           style={link}
           activeStyle={{
-            background: 'white'
+            background: 'lightgrey'
           }}
         >Directors</NavLink>
                 <NavLink
@@ -42,7 +42,7 @@ const NavBar = () => {
           exact
           style={link}
           activeStyle={{
-            background: 'white'
+            background: 'lightgrey'
           }}
         >Actors</NavLink>
       </div>
